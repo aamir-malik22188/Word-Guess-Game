@@ -1,0 +1,115 @@
+body {
+  background: darkgrey;
+  font-family: 'Times New Roman'; 
+  color: black;
+  height:100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.wrappper{
+  width: 100%;
+  margin: auto;
+}
+
+
+canvas{
+  color: black;
+  border: black solid 2px;
+  padding: 15px;
+}
+
+h1, h2, h3 {
+   font-family: 'Comic Sans', sans-serif;
+   font-weight: 100;
+   text-transform: uppercase;
+   margin:5px 0;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+p{
+  font-size: 20px;
+}
+
+
+
+#alphabet {
+  margin: 15px auto;
+  padding: 0;
+  max-width:900px;
+}
+
+#alphabet li {
+  float:left;
+  margin: 0 10px 10px 0;
+  list-style:none;
+  width:20px;
+  height:20px;
+  padding-top:10px;
+  background: white;
+  background-color: lightgreen;
+  cursor:pointer;
+  border: solid 1px white;
+    
+}
+
+#my-word {
+  margin: 0;
+  display: block;
+  padding: 0;
+  display:block;
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 40px;
+}
+
+#scatagory{
+  font-size: 50px;
+  float: right;
+}
+
+#mylives{
+  font-size:20px;
+  text-align: center;
+  display: block;
+}
+
+#button{
+  background-color: white;
+  color: white;
+  border: solid 1px white;
+  text-decoration:none;
+  cursor:pointer;
+  font-size: 20px;
+  padding: 50px;
+  width:180px;
+  margin: 10px;
+  outline: none;
+  
+}
+
+
+@media (max-width: 767px) {
+  #alphabet {
+  padding:0 0 0 15px;
+}
+  }
+
+  @media (max-width: 480px) {
+  #alphabet {
+  padding:0 0 0 25px;
+}
+  }
